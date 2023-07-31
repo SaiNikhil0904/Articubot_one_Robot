@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.000289] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000307] (hls_lfcd_lds_driver) JobQueued: {'identifier': 'hls_lfcd_lds_driver', 'dependencies': OrderedDict()}
+[0.000321] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.000334] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000346] (turtlebot3_msgs) JobQueued: {'identifier': 'turtlebot3_msgs', 'dependencies': OrderedDict()}
+[0.000358] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.000369] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces')])}
+[0.000388] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('hls_lfcd_lds_driver', '/home/gsainikhil94/turtlebot3_ws/install/hls_lfcd_lds_driver'), ('turtlebot3_description', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_teleop', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_teleop')])}
+[0.000405] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict([('turtlebot3_msgs', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_msgs')])}
+[0.000419] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict([('hls_lfcd_lds_driver', '/home/gsainikhil94/turtlebot3_ws/install/hls_lfcd_lds_driver'), ('turtlebot3_description', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_teleop', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_bringup')])}
+[0.000436] (turtlebot3_navigation) JobQueued: {'identifier': 'turtlebot3_navigation', 'dependencies': OrderedDict([('hls_lfcd_lds_driver', '/home/gsainikhil94/turtlebot3_ws/install/hls_lfcd_lds_driver'), ('turtlebot3_description', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_teleop', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_bringup')])}
+[0.000452] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_gazebo', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_gazebo'), ('turtlebot3_msgs', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_fake_node', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_fake_node')])}
+[0.000467] (turtlebot3_slam) JobQueued: {'identifier': 'turtlebot3_slam', 'dependencies': OrderedDict([('hls_lfcd_lds_driver', '/home/gsainikhil94/turtlebot3_ws/install/hls_lfcd_lds_driver'), ('turtlebot3_description', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_teleop', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_bringup')])}
+[0.000482] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('hls_lfcd_lds_driver', '/home/gsainikhil94/turtlebot3_ws/install/hls_lfcd_lds_driver'), ('turtlebot3_description', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_teleop', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_bringup'), ('turtlebot3_example', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_example'), ('turtlebot3_navigation', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_navigation'), ('turtlebot3_slam', '/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_slam')])}
+[0.001002] (turtlebot3_msgs) JobStarted: {'identifier': 'turtlebot3_msgs'}
+[0.014162] (hls_lfcd_lds_driver) JobStarted: {'identifier': 'hls_lfcd_lds_driver'}
+[0.020699] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.030974] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.038606] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.047943] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.055350] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.067562] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'cmake'}
+[0.069013] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'build'}
+[0.070366] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_msgs', '--', '-j8', '-l8'], 'cwd': '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gsainikhil94'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/gsainikhil94'), ('OLDPWD', '/home/gsainikhil94/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gsainikhil94'), ('JOURNAL_STREAM', '8:48227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gsainikhil94'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nikhil:@/tmp/.ICE-unix/1762,unix/Nikhil:/tmp/.ICE-unix/1762'), ('INVOCATION_ID', 'f4e8fe33455d4ad097749e0779918638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb7487b9_e8ca_433e_9ff1_3b0e7ce05fa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.076751] (hls_lfcd_lds_driver) JobProgress: {'identifier': 'hls_lfcd_lds_driver', 'progress': 'cmake'}
+[0.077722] (hls_lfcd_lds_driver) JobProgress: {'identifier': 'hls_lfcd_lds_driver', 'progress': 'build'}
+[0.078287] (hls_lfcd_lds_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gsainikhil94/turtlebot3_ws/build/hls_lfcd_lds_driver', '--', '-j8', '-l8'], 'cwd': '/home/gsainikhil94/turtlebot3_ws/build/hls_lfcd_lds_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gsainikhil94'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/gsainikhil94'), ('OLDPWD', '/home/gsainikhil94/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gsainikhil94'), ('JOURNAL_STREAM', '8:48227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gsainikhil94'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nikhil:@/tmp/.ICE-unix/1762,unix/Nikhil:/tmp/.ICE-unix/1762'), ('INVOCATION_ID', 'f4e8fe33455d4ad097749e0779918638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb7487b9_e8ca_433e_9ff1_3b0e7ce05fa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gsainikhil94/turtlebot3_ws/build/hls_lfcd_lds_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.081960] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.083671] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/home/gsainikhil94/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_description'], 'cwd': '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gsainikhil94'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/gsainikhil94'), ('OLDPWD', '/home/gsainikhil94/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gsainikhil94'), ('JOURNAL_STREAM', '8:48227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gsainikhil94'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nikhil:@/tmp/.ICE-unix/1762,unix/Nikhil:/tmp/.ICE-unix/1762'), ('INVOCATION_ID', 'f4e8fe33455d4ad097749e0779918638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb7487b9_e8ca_433e_9ff1_3b0e7ce05fa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.086471] (turtlebot3_teleop) JobProgress: {'identifier': 'turtlebot3_teleop', 'progress': 'cmake'}
+[0.088180] (turtlebot3_teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/gsainikhil94/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_teleop', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_teleop'], 'cwd': '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_teleop', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gsainikhil94'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/gsainikhil94'), ('OLDPWD', '/home/gsainikhil94/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gsainikhil94'), ('JOURNAL_STREAM', '8:48227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gsainikhil94'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nikhil:@/tmp/.ICE-unix/1762,unix/Nikhil:/tmp/.ICE-unix/1762'), ('INVOCATION_ID', 'f4e8fe33455d4ad097749e0779918638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb7487b9_e8ca_433e_9ff1_3b0e7ce05fa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.091449] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.092936] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'build'}
+[0.095380] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk', '--', '-j8', '-l8'], 'cwd': '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gsainikhil94'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/gsainikhil94'), ('OLDPWD', '/home/gsainikhil94/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gsainikhil94'), ('JOURNAL_STREAM', '8:48227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gsainikhil94'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nikhil:@/tmp/.ICE-unix/1762,unix/Nikhil:/tmp/.ICE-unix/1762'), ('INVOCATION_ID', 'f4e8fe33455d4ad097749e0779918638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb7487b9_e8ca_433e_9ff1_3b0e7ce05fa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.098385] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'cmake'}
+[0.099355] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'build'}
+[0.100021] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gsainikhil94'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/gsainikhil94'), ('OLDPWD', '/home/gsainikhil94/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gsainikhil94'), ('JOURNAL_STREAM', '8:48227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gsainikhil94'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nikhil:@/tmp/.ICE-unix/1762,unix/Nikhil:/tmp/.ICE-unix/1762'), ('INVOCATION_ID', 'f4e8fe33455d4ad097749e0779918638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb7487b9_e8ca_433e_9ff1_3b0e7ce05fa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.103564] (-) TimerEvent: {}
+[0.105997] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.111348] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.111728] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gsainikhil94'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/gsainikhil94'), ('OLDPWD', '/home/gsainikhil94/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gsainikhil94'), ('JOURNAL_STREAM', '8:48227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gsainikhil94'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Nikhil:@/tmp/.ICE-unix/1762,unix/Nikhil:/tmp/.ICE-unix/1762'), ('INVOCATION_ID', 'f4e8fe33455d4ad097749e0779918638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb7487b9_e8ca_433e_9ff1_3b0e7ce05fa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.125548] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.125841] (turtlebot3_description) StdoutLine: {'line': b'See also "/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.126830] (turtlebot3_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.127196] (turtlebot3_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.127301] (turtlebot3_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.127388] (turtlebot3_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.127474] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.127558] (turtlebot3_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.127641] (turtlebot3_description) StderrLine: {'line': b'  of the following names:\n'}
+[0.127725] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.127809] (turtlebot3_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.127896] (turtlebot3_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.127987] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.128069] (turtlebot3_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.128168] (turtlebot3_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.129331] (turtlebot3_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.129523] (turtlebot3_description) StderrLine: {'line': b'  installed.\n'}
+[0.129678] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.129813] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.138065] (turtlebot3_teleop) StderrLine: {'line': b'CMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.138356] (turtlebot3_teleop) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.138470] (turtlebot3_teleop) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.138571] (turtlebot3_teleop) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.138842] (turtlebot3_teleop) StderrLine: {'line': b'\n'}
+[0.138971] (turtlebot3_teleop) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.139067] (turtlebot3_teleop) StderrLine: {'line': b'  of the following names:\n'}
+[0.139153] (turtlebot3_teleop) StderrLine: {'line': b'\n'}
+[0.139249] (turtlebot3_teleop) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.139337] (turtlebot3_teleop) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.139422] (turtlebot3_teleop) StderrLine: {'line': b'\n'}
+[0.139507] (turtlebot3_teleop) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.139594] (turtlebot3_teleop) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.139680] (turtlebot3_teleop) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.139762] (turtlebot3_teleop) StderrLine: {'line': b'  installed.\n'}
+[0.139844] (turtlebot3_teleop) StderrLine: {'line': b'\n'}
+[0.139931] (turtlebot3_teleop) StderrLine: {'line': b'\n'}
+[0.140042] (hls_lfcd_lds_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hlds_laser_publisher\x1b[0m\n'}
+[0.140183] (turtlebot3_teleop) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.140285] (turtlebot3_teleop) StdoutLine: {'line': b'See also "/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_teleop/CMakeFiles/CMakeOutput.log".\n'}
+[0.144246] (turtlebot3_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.144966] (turtlebot3_description) CommandEnded: {'returncode': 1}
+[0.146095] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__cpp\x1b[0m\n'}
+[0.149134] (turtlebot3_teleop) CommandEnded: {'returncode': 1}
+[0.154564] (dynamixel_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk\x1b[0m\n'}
+[0.161606] (turtlebot3_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.164256] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__cpp\x1b[0m\n'}
+[0.166467] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.179166] (dynamixel_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o\x1b[0m\n'}
+[0.180675] (dynamixel_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o\x1b[0m\n'}
+[0.187775] (dynamixel_sdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o\x1b[0m\n'}
+[0.192547] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 1}
+[0.194322] (dynamixel_sdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o\x1b[0m\n'}
+[0.195699] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 'SIGINT'}
+[0.197640] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.203666] (-) TimerEvent: {}
+[0.206347] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacles\x1b[0m\n'}
+[0.209102] (dynamixel_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o\x1b[0m\n'}
+[0.210240] (dynamixel_sdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o\x1b[0m\n'}
+[0.230407] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle1\x1b[0m\n'}
+[0.232712] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[0.237117] (dynamixel_sdk) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o\x1b[0m\n'}
+[0.237602] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle2\x1b[0m\n'}
+[0.264360] (dynamixel_sdk) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o\x1b[0m\n'}
+[0.303003] (hls_lfcd_lds_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o\x1b[0m\n'}
+[0.303743] (-) TimerEvent: {}
+[0.318945] (dynamixel_sdk) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o\x1b[0m\n'}
+[0.403862] (-) TimerEvent: {}
+[0.463085] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[0.503990] (-) TimerEvent: {}
+[0.604460] (-) TimerEvent: {}
+[0.704922] (-) TimerEvent: {}
+[0.806128] (-) TimerEvent: {}
+[0.838924] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[0.858046] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[0.860001] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[0.906240] (-) TimerEvent: {}
+[1.006771] (-) TimerEvent: {}
+[1.107206] (-) TimerEvent: {}
+[1.207696] (-) TimerEvent: {}
+[1.308111] (-) TimerEvent: {}
+[1.408601] (-) TimerEvent: {}
+[1.469227] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.508695] (-) TimerEvent: {}
+[1.537753] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o\x1b[0m\n'}
+[1.539357] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o\x1b[0m\n'}
+[1.564167] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 10%] Built target dynamixel_sdk_custom_interfaces__cpp\n'}
+[1.602620] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.608824] (-) TimerEvent: {}
+[1.615759] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.618909] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.673905] (dynamixel_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk.so\x1b[0m\n'}
+[1.681160] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.708929] (-) TimerEvent: {}
+[1.809447] (-) TimerEvent: {}
+[1.881864] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c\n'}
+[1.889292] (dynamixel_sdk) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk\n'}
+[1.901476] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.909566] (-) TimerEvent: {}
+[1.921956] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 'SIGINT'}
+[1.937017] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.009673] (-) TimerEvent: {}
+[2.110066] (-) TimerEvent: {}
+[2.210449] (-) TimerEvent: {}
+[2.310863] (-) TimerEvent: {}
+[2.377383] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.410969] (-) TimerEvent: {}
+[2.452787] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o\x1b[0m\n'}
+[2.461871] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[2.511085] (-) TimerEvent: {}
+[2.530425] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.611192] (-) TimerEvent: {}
+[2.648972] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.669333] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o\x1b[0m\n'}
+[2.677408] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o\x1b[0m\n'}
+[2.711308] (-) TimerEvent: {}
+[2.743705] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o\x1b[0m\n'}
+[2.752221] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o\x1b[0m\n'}
+[2.811412] (-) TimerEvent: {}
+[2.824156] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.886741] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o\x1b[0m\n'}
+[2.911554] (-) TimerEvent: {}
+[3.012029] (-) TimerEvent: {}
+[3.074984] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[3.105944] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.112165] (-) TimerEvent: {}
+[3.177355] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o\x1b[0m\n'}
+[3.212285] (-) TimerEvent: {}
+[3.227400] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.312421] (-) TimerEvent: {}
+[3.347200] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o\x1b[0m\n'}
+[3.356654] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c\n'}
+[3.401642] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.412548] (-) TimerEvent: {}
+[3.447823] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.512771] (-) TimerEvent: {}
+[3.518908] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 58%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp\n'}
+[3.532681] (turtlebot3_msgs) StdoutLine: {'line': b'[  2%] Built target turtlebot3_msgs__cpp\n'}
+[3.612896] (-) TimerEvent: {}
+[3.614845] (turtlebot3_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.620445] (turtlebot3_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.622077] (turtlebot3_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.622414] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 58%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.713014] (-) TimerEvent: {}
+[3.813594] (-) TimerEvent: {}
+[3.871716] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.913718] (-) TimerEvent: {}
+[3.989495] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.013816] (-) TimerEvent: {}
+[4.058291] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.113941] (-) TimerEvent: {}
+[4.132603] (turtlebot3_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o\x1b[0m\n'}
+[4.145718] (turtlebot3_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o\x1b[0m\n'}
+[4.154459] (turtlebot3_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o\x1b[0m\n'}
+[4.162839] (turtlebot3_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/dqn__functions.c.o\x1b[0m\n'}
+[4.172024] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.207518] (turtlebot3_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o\x1b[0m\n'}
+[4.214076] (-) TimerEvent: {}
+[4.216754] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.250755] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.314191] (-) TimerEvent: {}
+[4.341066] (turtlebot3_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o\x1b[0m\n'}
+[4.414315] (-) TimerEvent: {}
+[4.514704] (-) TimerEvent: {}
+[4.615460] (-) TimerEvent: {}
+[4.682647] (turtlebot3_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.715584] (-) TimerEvent: {}
+[4.816007] (-) TimerEvent: {}
+[4.843966] (turtlebot3_msgs) StdoutLine: {'line': b'[ 16%] Built target turtlebot3_msgs__rosidl_generator_c\n'}
+[4.866691] (turtlebot3_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.881899] (turtlebot3_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.916127] (-) TimerEvent: {}
+[5.016577] (-) TimerEvent: {}
+[5.116960] (-) TimerEvent: {}
+[5.205046] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.217065] (-) TimerEvent: {}
+[5.304125] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.304390] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o\x1b[0m\n'}
+[5.308807] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o\x1b[0m\n'}
+[5.317199] (-) TimerEvent: {}
+[5.354057] (turtlebot3_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[5.373439] (turtlebot3_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sound__type_support.cpp.o\x1b[0m\n'}
+[5.394440] (turtlebot3_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/version_info__type_support.cpp.o\x1b[0m\n'}
+[5.417308] (-) TimerEvent: {}
+[5.515792] (turtlebot3_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/sound__type_support.cpp.o\x1b[0m\n'}
+[5.517388] (-) TimerEvent: {}
+[5.531603] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.617508] (-) TimerEvent: {}
+[5.636819] (turtlebot3_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[5.717636] (-) TimerEvent: {}
+[5.818063] (-) TimerEvent: {}
+[5.918468] (-) TimerEvent: {}
+[6.018994] (-) TimerEvent: {}
+[6.119413] (-) TimerEvent: {}
+[6.125047] (turtlebot3_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/dqn__type_support.cpp.o\x1b[0m\n'}
+[6.219528] (-) TimerEvent: {}
+[6.320032] (-) TimerEvent: {}
+[6.412907] (turtlebot3_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/action/patrol__type_support.cpp.o\x1b[0m\n'}
+[6.420147] (-) TimerEvent: {}
+[6.503553] (turtlebot3_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sound__type_support.cpp.o\x1b[0m\n'}
+[6.520269] (-) TimerEvent: {}
+[6.620956] (-) TimerEvent: {}
+[6.664739] (turtlebot3_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.cpp.o\x1b[0m\n'}
+[6.721106] (-) TimerEvent: {}
+[6.821846] (-) TimerEvent: {}
+[6.922579] (-) TimerEvent: {}
+[6.939429] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.992865] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.010442] (turtlebot3_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/sound__type_support.cpp.o\x1b[0m\n'}
+[7.022697] (-) TimerEvent: {}
+[7.090414] (turtlebot3_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[7.110195] (turtlebot3_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/dqn__type_support.cpp.o\x1b[0m\n'}
+[7.122824] (-) TimerEvent: {}
+[7.223698] (-) TimerEvent: {}
+[7.324216] (-) TimerEvent: {}
+[7.401799] (turtlebot3_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/action/detail/patrol__type_support.cpp.o\x1b[0m\n'}
+[7.404078] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.422682] (turtlebot3_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o\x1b[0m\n'}
+[7.424311] (-) TimerEvent: {}
+[7.427418] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[7.439294] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces\x1b[0m\n'}
+[7.520982] (turtlebot3_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o\x1b[0m\n'}
+[7.524429] (-) TimerEvent: {}
+[7.543515] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target dynamixel_sdk_custom_interfaces\n'}
+[7.619093] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__py\x1b[0m\n'}
+[7.624560] (-) TimerEvent: {}
+[7.642818] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.668240] (turtlebot3_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sound__type_support.cpp.o\x1b[0m\n'}
+[7.724665] (-) TimerEvent: {}
+[7.825054] (-) TimerEvent: {}
+[7.869295] (turtlebot3_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/version_info__type_support.cpp.o\x1b[0m\n'}
+[7.925227] (-) TimerEvent: {}
+[7.947146] (turtlebot3_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.024687] (turtlebot3_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/sound__type_support.cpp.o\x1b[0m\n'}
+[8.025298] (-) TimerEvent: {}
+[8.051726] (turtlebot3_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/sound__type_support.cpp.o\x1b[0m\n'}
+[8.065445] (turtlebot3_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/version_info__type_support.cpp.o\x1b[0m\n'}
+[8.125433] (-) TimerEvent: {}
+[8.158788] (turtlebot3_msgs) StdoutLine: {'line': b'[ 49%] Built target turtlebot3_msgs__rosidl_typesupport_cpp\n'}
+[8.193055] (turtlebot3_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/dqn__type_support.cpp.o\x1b[0m\n'}
+[8.221325] (turtlebot3_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/dqn__type_support.cpp.o\x1b[0m\n'}
+[8.225542] (-) TimerEvent: {}
+[8.328674] (-) TimerEvent: {}
+[8.360446] (turtlebot3_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/action/patrol__type_support.cpp.o\x1b[0m\n'}
+[8.399336] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.428952] (-) TimerEvent: {}
+[8.508697] (turtlebot3_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/action/detail/dds_fastrtps/patrol__type_support.cpp.o\x1b[0m\n'}
+[8.520886] (turtlebot3_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__type_support.c.o\x1b[0m\n'}
+[8.529057] (-) TimerEvent: {}
+[8.600070] (turtlebot3_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.629170] (-) TimerEvent: {}
+[8.715030] (turtlebot3_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sound__type_support.c.o\x1b[0m\n'}
+[8.729296] (-) TimerEvent: {}
+[8.831206] (-) TimerEvent: {}
+[8.916886] (turtlebot3_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/version_info__type_support.c.o\x1b[0m\n'}
+[8.931351] (-) TimerEvent: {}
+[8.956828] (turtlebot3_msgs) StdoutLine: {'line': b'[ 60%] Built target turtlebot3_msgs__rosidl_typesupport_c\n'}
+[9.013055] (turtlebot3_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__type_support.c.o\x1b[0m\n'}
+[9.031468] (-) TimerEvent: {}
+[9.109583] (turtlebot3_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/dqn__type_support.c.o\x1b[0m\n'}
+[9.129384] (turtlebot3_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.131580] (-) TimerEvent: {}
+[9.164895] (turtlebot3_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/action/detail/patrol__type_support.c.o\x1b[0m\n'}
+[9.231699] (-) TimerEvent: {}
+[9.307987] (turtlebot3_msgs) StdoutLine: {'line': b'[ 66%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.325761] (turtlebot3_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libturtlebot3_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.331819] (-) TimerEvent: {}
+[9.393080] (turtlebot3_msgs) StdoutLine: {'line': b'[ 67%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c\n'}
+[9.432127] (-) TimerEvent: {}
+[9.532576] (-) TimerEvent: {}
+[9.631880] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target dynamixel_sdk_custom_interfaces__py\n'}
+[9.632660] (-) TimerEvent: {}
+[9.647782] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__python\x1b[0m\n'}
+[9.695377] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o\x1b[0m\n'}
+[9.703459] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o\x1b[0m\n'}
+[9.717484] (turtlebot3_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.732785] (-) TimerEvent: {}
+[9.833294] (-) TimerEvent: {}
+[9.905975] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__python.so\x1b[0m\n'}
+[9.915074] (turtlebot3_msgs) StdoutLine: {'line': b'[ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.932431] (turtlebot3_msgs) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.933384] (-) TimerEvent: {}
+[9.974068] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target dynamixel_sdk_custom_interfaces__python\n'}
+[9.989437] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.992100] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.008739] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.019113] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.035956] (-) TimerEvent: {}
+[10.039660] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.077680] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.136083] (-) TimerEvent: {}
+[10.207530] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.236208] (-) TimerEvent: {}
+[10.256216] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.278203] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.282462] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.333500] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.336315] (-) TimerEvent: {}
+[10.390433] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.410491] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 'SIGINT'}
+[10.436439] (-) TimerEvent: {}
+[10.537223] (-) TimerEvent: {}
+[10.637590] (-) TimerEvent: {}
+[10.737968] (-) TimerEvent: {}
+[10.838351] (-) TimerEvent: {}
+[10.938752] (-) TimerEvent: {}
+[11.039253] (-) TimerEvent: {}
+[11.139637] (-) TimerEvent: {}
+[11.240363] (-) TimerEvent: {}
+[11.340763] (-) TimerEvent: {}
+[11.445117] (-) TimerEvent: {}
+[11.545572] (-) TimerEvent: {}
+[11.550957] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.601807] (turtlebot3_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sound__type_support_c.cpp.o\x1b[0m\n'}
+[11.606156] (turtlebot3_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sensor_state__type_support_c.cpp.o\x1b[0m\n'}
+[11.607722] (turtlebot3_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/version_info__type_support_c.cpp.o\x1b[0m\n'}
+[11.620582] (turtlebot3_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/sound__type_support_c.cpp.o\x1b[0m\n'}
+[11.625154] (turtlebot3_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/dqn__type_support_c.cpp.o\x1b[0m\n'}
+[11.645700] (-) TimerEvent: {}
+[11.672834] (turtlebot3_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/action/detail/patrol__type_support_c.cpp.o\x1b[0m\n'}
+[11.745878] (-) TimerEvent: {}
+[11.846485] (-) TimerEvent: {}
+[11.955664] (-) TimerEvent: {}
+[12.056663] (-) TimerEvent: {}
+[12.157230] (-) TimerEvent: {}
+[12.257693] (-) TimerEvent: {}
+[12.358276] (-) TimerEvent: {}
+[12.458782] (-) TimerEvent: {}
+[12.559750] (-) TimerEvent: {}
+[12.662896] (-) TimerEvent: {}
+[12.763412] (-) TimerEvent: {}
+[12.863821] (-) TimerEvent: {}
+[12.905886] (turtlebot3_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.964070] (-) TimerEvent: {}
+[13.064745] (-) TimerEvent: {}
+[13.113284] (turtlebot3_msgs) StdoutLine: {'line': b'[ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c\n'}
+[13.153012] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs\x1b[0m\n'}
+[13.164910] (-) TimerEvent: {}
+[13.170417] (turtlebot3_msgs) StdoutLine: {'line': b'[ 80%] Built target turtlebot3_msgs\n'}
+[13.195897] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__py\x1b[0m\n'}
+[13.219291] (turtlebot3_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.265031] (-) TimerEvent: {}
+[13.365443] (-) TimerEvent: {}
+[13.465949] (-) TimerEvent: {}
+[13.566378] (-) TimerEvent: {}
+[13.666891] (-) TimerEvent: {}
+[13.767325] (-) TimerEvent: {}
+[13.841911] (hls_lfcd_lds_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hlds_laser_publisher\x1b[0m\n'}
+[13.867449] (-) TimerEvent: {}
+[13.968001] (-) TimerEvent: {}
+[14.068434] (-) TimerEvent: {}
+[14.168940] (-) TimerEvent: {}
+[14.268540] (hls_lfcd_lds_driver) StdoutLine: {'line': b'[100%] Built target hlds_laser_publisher\n'}
+[14.268981] (-) TimerEvent: {}
+[14.281755] (hls_lfcd_lds_driver) JobEnded: {'identifier': 'hls_lfcd_lds_driver', 'rc': 'SIGINT'}
+[14.369105] (-) TimerEvent: {}
+[14.469414] (-) TimerEvent: {}
+[14.569730] (-) TimerEvent: {}
+[14.670024] (-) TimerEvent: {}
+[14.770322] (-) TimerEvent: {}
+[14.870851] (-) TimerEvent: {}
+[14.971170] (-) TimerEvent: {}
+[15.071550] (-) TimerEvent: {}
+[15.171923] (-) TimerEvent: {}
+[15.272291] (-) TimerEvent: {}
+[15.372674] (-) TimerEvent: {}
+[15.473223] (-) TimerEvent: {}
+[15.573697] (-) TimerEvent: {}
+[15.674435] (-) TimerEvent: {}
+[15.774810] (-) TimerEvent: {}
+[15.875687] (-) TimerEvent: {}
+[15.976265] (-) TimerEvent: {}
+[16.076665] (-) TimerEvent: {}
+[16.177077] (-) TimerEvent: {}
+[16.277420] (-) TimerEvent: {}
+[16.338758] (turtlebot3_msgs) StdoutLine: {'line': b'[ 81%] Built target turtlebot3_msgs__py\n'}
+[16.348596] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__python\x1b[0m\n'}
+[16.377547] (-) TimerEvent: {}
+[16.379320] (turtlebot3_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sound_s.c.o\x1b[0m\n'}
+[16.379827] (turtlebot3_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_version_info_s.c.o\x1b[0m\n'}
+[16.380252] (turtlebot3_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o\x1b[0m\n'}
+[16.381035] (turtlebot3_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sensor_state_s.c.o\x1b[0m\n'}
+[16.391149] (turtlebot3_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_dqn_s.c.o\x1b[0m\n'}
+[16.393814] (turtlebot3_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/action/_patrol_s.c.o\x1b[0m\n'}
+[16.477670] (-) TimerEvent: {}
+[16.578094] (-) TimerEvent: {}
+[16.659946] (turtlebot3_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__python.so\x1b[0m\n'}
+[16.678217] (-) TimerEvent: {}
+[16.704485] (turtlebot3_msgs) StdoutLine: {'line': b'[ 91%] Built target turtlebot3_msgs__python\n'}
+[16.719414] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[16.719696] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[16.720796] (turtlebot3_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[16.745581] (turtlebot3_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.755069] (turtlebot3_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.755998] (turtlebot3_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.778336] (-) TimerEvent: {}
+[16.878721] (-) TimerEvent: {}
+[16.954029] (turtlebot3_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.958461] (turtlebot3_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.969660] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.978850] (-) TimerEvent: {}
+[17.017663] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext\n'}
+[17.031651] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[17.056987] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.068076] (turtlebot3_msgs) JobEnded: {'identifier': 'turtlebot3_msgs', 'rc': 'SIGINT'}
+[17.078980] (-) TimerEvent: {}
+[17.179341] (-) TimerEvent: {}
+[17.279711] (-) TimerEvent: {}
+[17.380081] (-) TimerEvent: {}
+[17.480442] (-) TimerEvent: {}
+[17.580814] (-) TimerEvent: {}
+[17.681178] (-) TimerEvent: {}
+[17.781550] (-) TimerEvent: {}
+[17.881909] (-) TimerEvent: {}
+[17.982261] (-) TimerEvent: {}
+[18.082628] (-) TimerEvent: {}
+[18.183136] (-) TimerEvent: {}
+[18.283499] (-) TimerEvent: {}
+[18.383877] (-) TimerEvent: {}
+[18.484266] (-) TimerEvent: {}
+[18.584605] (-) TimerEvent: {}
+[18.684997] (-) TimerEvent: {}
+[18.785378] (-) TimerEvent: {}
+[18.885751] (-) TimerEvent: {}
+[18.966776] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[18.985991] (-) TimerEvent: {}
+[19.086333] (-) TimerEvent: {}
+[19.186656] (-) TimerEvent: {}
+[19.282631] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] Built target obstacles\n'}
+[19.286800] (-) TimerEvent: {}
+[19.320014] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[19.386920] (-) TimerEvent: {}
+[19.460982] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[19.487077] (-) TimerEvent: {}
+[19.576738] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacle2\n'}
+[19.587196] (-) TimerEvent: {}
+[19.651555] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[19.687480] (-) TimerEvent: {}
+[19.787958] (-) TimerEvent: {}
+[19.859809] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[19.884895] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[19.888196] (-) TimerEvent: {}
+[19.894482] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 'SIGINT'}
+[19.905078] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[19.905150] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[19.905173] (turtlebot3_fake_node) JobSkipped: {'identifier': 'turtlebot3_fake_node'}
+[19.905192] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[19.905208] (turtlebot3_navigation) JobSkipped: {'identifier': 'turtlebot3_navigation'}
+[19.905224] (turtlebot3_simulations) JobSkipped: {'identifier': 'turtlebot3_simulations'}
+[19.905239] (turtlebot3_slam) JobSkipped: {'identifier': 'turtlebot3_slam'}
+[19.905255] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[19.905271] (-) EventReactorShutdown: {}

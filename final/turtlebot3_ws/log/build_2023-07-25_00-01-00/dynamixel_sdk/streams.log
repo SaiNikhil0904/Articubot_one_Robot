@@ -1,0 +1,56 @@
+[0.065s] Invoking command in '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk -- -j8 -l8
+[0.118s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.129s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.221s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.342s] -- Configuring done
+[0.349s] -- Generating done
+[0.351s] -- Build files have been written to: /home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk
+[0.397s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.397s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.404s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.404s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.408s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.409s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[0.419s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.419s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.580s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[1.704s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.837s] [100%] Built target dynamixel_sdk
+[1.859s] Invoked command in '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk -- -j8 -l8
+[1.981s] Invoking command in '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk
+[2.090s] -- Install configuration: ""
+[2.091s] -- Execute custom install script
+[2.091s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.091s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.091s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.091s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.091s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.091s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.092s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.094s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.108s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.122s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.140s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.155s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.168s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.184s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.196s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.209s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.229s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.265s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.272s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.280s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.292s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.303s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.314s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.328s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.343s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.355s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.370s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.379s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.388s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.397s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.406s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.416s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.425s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.612s] Invoked command in '/home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gsainikhil94/turtlebot3_ws/build/dynamixel_sdk

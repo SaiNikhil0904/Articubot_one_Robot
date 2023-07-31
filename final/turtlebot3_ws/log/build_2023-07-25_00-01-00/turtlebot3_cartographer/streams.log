@@ -1,0 +1,48 @@
+[0.054s] Invoking command in '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/gsainikhil94/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer
+[0.145s] -- The C compiler identification is GNU 9.4.0
+[0.232s] -- The CXX compiler identification is GNU 9.4.0
+[0.240s] -- Check for working C compiler: /usr/bin/cc
+[0.343s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.344s] -- Detecting C compiler ABI info
+[0.614s] -- Detecting C compiler ABI info - done
+[0.660s] -- Detecting C compile features
+[0.681s] -- Detecting C compile features - done
+[0.686s] -- Check for working CXX compiler: /usr/bin/c++
+[0.865s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.866s] -- Detecting CXX compiler ABI info
+[1.056s] -- Detecting CXX compiler ABI info - done
+[1.086s] -- Detecting CXX compile features
+[1.087s] -- Detecting CXX compile features - done
+[1.091s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.138s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.236s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.402s] -- Configuring done
+[1.408s] -- Generating done
+[1.410s] -- Build files have been written to: /home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer
+[1.420s] Invoked command in '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/gsainikhil94/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer
+[1.421s] Invoking command in '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer -- -j8 -l8
+[1.709s] Invoked command in '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer -- -j8 -l8
+[1.755s] Invoking command in '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer
+[1.822s] -- Install configuration: ""
+[1.822s] -- Execute custom install script
+[1.822s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.822s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.822s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.827s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.841s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.863s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.882s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.895s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.908s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.921s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.934s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.947s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.958s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.968s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.984s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.998s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.011s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.023s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.038s] -- Symlinking: /home/gsainikhil94/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.060s] Invoked command in '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gsainikhil94/turtlebot3_ws/build/turtlebot3_cartographer

@@ -1,0 +1,17 @@
+[0.058s] Invoking command in '/home/gsainikhil94/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gsainikhil94/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.151s] [35m[1mScanning dependencies of target obstacles[0m
+[0.175s] [35m[1mScanning dependencies of target obstacle1[0m
+[0.177s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[0.182s] [35m[1mScanning dependencies of target obstacle2[0m
+[0.408s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.784s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[0.803s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[0.805s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[18.911s] [ 62%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[19.227s] [ 62%] Built target obstacles
+[19.265s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[19.406s] [ 87%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[19.521s] [ 87%] Built target obstacle2
+[19.596s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[19.804s] [100%] Built target turtlebot3_drive
+[19.829s] [100%] Built target obstacle1

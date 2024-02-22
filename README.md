@@ -27,6 +27,10 @@ The primary goal of ArticuBot is to showcase the feasibility and effectiveness o
 4. **Path Planning:** Utilization of path planning algorithms to generate optimal paths for the robot to navigate.
 5. **Autonomous Navigation:** Demonstration of autonomous navigation capabilities, allowing the robot to move to specified destinations while avoiding obstacles.
 
+## For Presentation and Demo click the below link
+
+[View Presentation](https://www.canva.com/design/DAF9idLXGBA/MdkwmYEvP7E0PQ_pswJD8g/view?utm_content=DAF9idLXGBA&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 ## Output Images
 
 ![image](https://github.com/SaiNikhil0904/Articubot_one_Robot/assets/98106917/bab35256-5f14-4123-a225-d29efda291eb)
